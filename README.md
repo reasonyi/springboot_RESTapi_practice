@@ -30,7 +30,7 @@
 ![image](https://github.com/YYRi9/springboot_RESTapi_practice/assets/66377159/ae10144c-e8bc-438a-aad2-cb5419a62bce)
 <br>
 response body를 보면 상영시간이 잘 바뀐 것을 확인할 수 있음
-<br>
+<br><br>
 
 - DB에서도 잘 바뀐 것을 확인. <br>
 ![image](https://github.com/YYRi9/springboot_RESTapi_practice/assets/66377159/abc8df36-bace-4256-acec-e39dd176140e)
@@ -42,7 +42,7 @@ response body를 보면 상영시간이 잘 바뀐 것을 확인할 수 있음
 ![image](https://github.com/YYRi9/springboot_RESTapi_practice/assets/66377159/045fe906-3d3a-41c6-b81f-b04067300bd8)
 <br>
 reponse body에 지워진 영화의 id인 1이 온 것을 확인.
-<br>
+<br><br>
 
 - DB에서도 삭제된 것을 확인 <br>
 ![image](https://github.com/YYRi9/springboot_RESTapi_practice/assets/66377159/ecb1acae-24f1-486b-897d-90a1a61aa626)
