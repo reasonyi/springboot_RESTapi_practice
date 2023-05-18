@@ -24,7 +24,7 @@ public class MovieController {
         return ResponseEntity.ok().body(movies);
     }
     
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/{id}")    // 한 영화만 가져오는 경우
     public ResponseEntity getMovie(@PathVariable Long id) {
         Movie movie = movieService.findById(id);
         return ResponseEntity.ok().body(movie);
