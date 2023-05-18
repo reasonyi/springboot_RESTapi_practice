@@ -23,9 +23,9 @@ public class MovieService {
     }
 
     public Movie updateMovie(Long id, MovieDto movieDto) {
-        Movie movie = findById((id));
+        Movie movie = findById(id);
         movie.update(movieDto.getTitle(), movieDto.getGenre(), movieDto.getRunningTime(), movieDto.getPostUrl());
-        return movie;
+        return movieRepository.save(movie);
     }
 
     public Long deleteMovie(Long id) {
