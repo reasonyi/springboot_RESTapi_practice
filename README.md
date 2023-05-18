@@ -47,3 +47,4 @@ reponse body에 지워진 영화의 id인 1이 온 것을 확인.
 - DB에서도 삭제된 것을 확인 <br>
 ![image](https://github.com/YYRi9/springboot_RESTapi_practice/assets/66377159/ecb1acae-24f1-486b-897d-90a1a61aa626)
 
+
