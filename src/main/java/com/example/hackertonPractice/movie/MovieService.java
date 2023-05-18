@@ -4,6 +4,8 @@ import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @RequiredArgsConstructor    // final이 선언된 모든 필드를 인자값으로 하는 생성자를 대신 생성해줌. 의존성 관계가 변경될 때마다 코드를 계속해서 수정하는 번거로움을 해결
 @Service
 public class MovieService {
@@ -30,6 +32,10 @@ public class MovieService {
         Movie movie = findById(id);
         movieRepository.delete(movie);
         return id;
+    }
+
+    public List<Movie> findAllMovie() {
+        return movieRepository.findAll();
     }
 
 }
